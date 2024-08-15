@@ -7,8 +7,11 @@ This MERN Stack Chat Application is a real-time chat application built using Mon
 Key Features:
 
 Real-Time Messaging: Leveraging WebSockets to enable real-time chat functionality.
+
 Multiple Chat Rooms: Users can create and join different chat rooms to have separate conversations.
+
 Persistent Chat History: Messages are stored in MongoDB, allowing users to view previous conversations when they rejoin.
+
 Responsive Design: The application is optimized for both desktop and mobile devices.
 
 Live Demo:
@@ -18,9 +21,13 @@ https://github.com/user-attachments/assets/9ae0b1cb-1801-4fd9-bc17-18d5d5fa19d9
 Tech Stack:
 
 MongoDB: NoSQL database to store user data and chat history.
+
 Express.js: Backend framework for handling server-side logic.
+
 React.js: Front-end framework for building a dynamic user interface.
+
 Node.js: JavaScript runtime environment for the server.
+
 WebSockets: Enables real-time, bi-directional communication between the client and server.
 
 WebSocket Architecture:
@@ -30,6 +37,8 @@ This chat app utilizes WebSockets to establish a persistent connection between t
 Workflow:
 
 Connection: When a user joins a chat room, a WebSocket connection is established.
+
 Message Transmission: Messages are sent via WebSockets and broadcast to other users in the room.
+
 Database Storage: Each message is stored in MongoDB for future retrieval.
 
